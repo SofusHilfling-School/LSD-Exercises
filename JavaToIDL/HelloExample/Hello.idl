@@ -1,0 +1,8 @@
+module HellApp
+{
+    interface Hello
+    {
+        string sayHello();
+        oneway void shutdown();
+    };
+};
